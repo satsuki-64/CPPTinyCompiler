@@ -8,6 +8,7 @@ project(CPPTINYCOMPLIER)
     message(${SRC_ROOT_FILE})
     message("WORLD!")
 
+    set(EXECUTABLE_OUTPUT_PATH ${SRC_ROOT_FILE})
     set(
         SOURCE_FILE 
         ${SRC_ROOT_FILE}/src/compiler/Scan.h
