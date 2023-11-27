@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/jianwen/CPPTinyCompiler/build",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/include -I/home/jianwen/CPPTinyCompiler/src/compiler  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -c /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp",
+  "file": "/home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp"
+},
+{
+  "directory": "/home/jianwen/CPPTinyCompiler/build",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/include -I/home/jianwen/CPPTinyCompiler/src/compiler  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -c /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp",
+  "file": "/home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp"
+}
+]

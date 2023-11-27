@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -Wall -g -rdynamic CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -o MainTest_cmake 

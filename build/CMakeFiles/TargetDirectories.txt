@@ -1,0 +1,3 @@
+/home/jianwen/CPPTinyCompiler/build/CMakeFiles/MainTest_cmake.dir
+/home/jianwen/CPPTinyCompiler/build/CMakeFiles/edit_cache.dir
+/home/jianwen/CPPTinyCompiler/build/CMakeFiles/rebuild_cache.dir
