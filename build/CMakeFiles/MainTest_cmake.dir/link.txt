@@ -1,1 +1,1 @@
-/usr/bin/g++  -g -Wall -g -rdynamic CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -o ../MainTest_cmake 
+/usr/bin/g++  -g -Wall -g -rdynamic CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o -o ../MainTest_cmake 

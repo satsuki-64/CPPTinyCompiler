@@ -1,5 +1,5 @@
-#include "Core.h"
-#include "Scan.h"
+#include "core.h"
+
 using namespace Compiler;
 
 int main(int argc,char **argv)
@@ -8,6 +8,9 @@ int main(int argc,char **argv)
 
     Scan scan;
     scan.ReadSrcFile(argc,argv);
+
+    allocproc alloc;
+    alloc.alloc();
 
     return 0;
 }

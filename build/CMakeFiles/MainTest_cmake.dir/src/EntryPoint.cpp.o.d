@@ -151,7 +151,6 @@ CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/jianwen/CPPTinyCompiler/src/compiler/Parse.h \
  /home/jianwen/CPPTinyCompiler/src/compiler/Scan.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -161,4 +160,7 @@ CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc
+ /usr/include/c++/11/bits/fstream.tcc \
+ /home/jianwen/CPPTinyCompiler/src/compiler/Parse.h \
+ /home/jianwen/CPPTinyCompiler/src/kernel/allocproc.h \
+ /home/jianwen/CPPTinyCompiler/src/kernel/proc.h

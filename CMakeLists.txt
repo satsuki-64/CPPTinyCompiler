@@ -13,11 +13,29 @@ project(CPPTINYCOMPLIER)
         SOURCE_FILE 
         ${SRC_ROOT_FILE}/src/compiler/Scan.h
         ${SRC_ROOT_FILE}/src/compiler/Scan.cpp
+
         ${SRC_ROOT_FILE}/src/EntryPoint.cpp
+        ${SRC_ROOT_FILE}/src/include/core.h
+
+        ${SRC_ROOT_FILE}/src/kernel/proc/proc.h
+        ${SRC_ROOT_FILE}/src/kernel/proc/alloc_proc.h
+        ${SRC_ROOT_FILE}/src/kernel/proc/alloc_proc.cpp
+
+        ${SRC_ROOT_FILE}/src/kernel/register/v_register.h
+        ${SRC_ROOT_FILE}/src/kernel/register/alloc_reg.h
+        ${SRC_ROOT_FILE}/src/kernel/register/alloc_reg.cpp
+
+        ${SRC_ROOT_FILE}/src/kernel/instruction/v_instruction_set.h
+        ${SRC_ROOT_FILE}/src/kernel/instruction/instruction_eval.h
+        ${SRC_ROOT_FILE}/src/kernel/instruction/instruction_eval.cpp
     )
     message(${SOURCE_FILE})
 
-    include_directories(${SRC_ROOT_FILE}/src/include)
+    include_directories(${SRC_ROOT_FILE}/src/kernel/proc)
+    include_directories(${SRC_ROOT_FILE}/src/kernel/register)
+    include_directories(${SRC_ROOT_FILE}/src/kernel/instruction)
     include_directories(${SRC_ROOT_FILE}/src/compiler)
+    include_directories(${SRC_ROOT_FILE}/src/include)
+    
 
     add_executable(MainTest_cmake ${SOURCE_FILE})

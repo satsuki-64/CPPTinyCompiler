@@ -8,4 +8,10 @@
 
 using namespace std;
 
+#include "Scan.h"
 #include "Parse.h"
+
+#include "alloc_proc.h"
+
+#include "instruction_eval.h"
+

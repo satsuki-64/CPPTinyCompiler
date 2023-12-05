@@ -177,6 +177,78 @@ src/compiler/Scan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s
 .PHONY : src/compiler/Scan.cpp.s
 
+src/kernel/instruction/instruction_eval.o: src/kernel/instruction/instruction_eval.cpp.o
+.PHONY : src/kernel/instruction/instruction_eval.o
+
+# target to build an object file
+src/kernel/instruction/instruction_eval.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o
+.PHONY : src/kernel/instruction/instruction_eval.cpp.o
+
+src/kernel/instruction/instruction_eval.i: src/kernel/instruction/instruction_eval.cpp.i
+.PHONY : src/kernel/instruction/instruction_eval.i
+
+# target to preprocess a source file
+src/kernel/instruction/instruction_eval.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.i
+.PHONY : src/kernel/instruction/instruction_eval.cpp.i
+
+src/kernel/instruction/instruction_eval.s: src/kernel/instruction/instruction_eval.cpp.s
+.PHONY : src/kernel/instruction/instruction_eval.s
+
+# target to generate assembly for a file
+src/kernel/instruction/instruction_eval.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.s
+.PHONY : src/kernel/instruction/instruction_eval.cpp.s
+
+src/kernel/proc/alloc_proc.o: src/kernel/proc/alloc_proc.cpp.o
+.PHONY : src/kernel/proc/alloc_proc.o
+
+# target to build an object file
+src/kernel/proc/alloc_proc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o
+.PHONY : src/kernel/proc/alloc_proc.cpp.o
+
+src/kernel/proc/alloc_proc.i: src/kernel/proc/alloc_proc.cpp.i
+.PHONY : src/kernel/proc/alloc_proc.i
+
+# target to preprocess a source file
+src/kernel/proc/alloc_proc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.i
+.PHONY : src/kernel/proc/alloc_proc.cpp.i
+
+src/kernel/proc/alloc_proc.s: src/kernel/proc/alloc_proc.cpp.s
+.PHONY : src/kernel/proc/alloc_proc.s
+
+# target to generate assembly for a file
+src/kernel/proc/alloc_proc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.s
+.PHONY : src/kernel/proc/alloc_proc.cpp.s
+
+src/kernel/register/alloc_reg.o: src/kernel/register/alloc_reg.cpp.o
+.PHONY : src/kernel/register/alloc_reg.o
+
+# target to build an object file
+src/kernel/register/alloc_reg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o
+.PHONY : src/kernel/register/alloc_reg.cpp.o
+
+src/kernel/register/alloc_reg.i: src/kernel/register/alloc_reg.cpp.i
+.PHONY : src/kernel/register/alloc_reg.i
+
+# target to preprocess a source file
+src/kernel/register/alloc_reg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.i
+.PHONY : src/kernel/register/alloc_reg.cpp.i
+
+src/kernel/register/alloc_reg.s: src/kernel/register/alloc_reg.cpp.s
+.PHONY : src/kernel/register/alloc_reg.s
+
+# target to generate assembly for a file
+src/kernel/register/alloc_reg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MainTest_cmake.dir/build.make CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.s
+.PHONY : src/kernel/register/alloc_reg.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +264,15 @@ help:
 	@echo "... src/compiler/Scan.o"
 	@echo "... src/compiler/Scan.i"
 	@echo "... src/compiler/Scan.s"
+	@echo "... src/kernel/instruction/instruction_eval.o"
+	@echo "... src/kernel/instruction/instruction_eval.i"
+	@echo "... src/kernel/instruction/instruction_eval.s"
+	@echo "... src/kernel/proc/alloc_proc.o"
+	@echo "... src/kernel/proc/alloc_proc.i"
+	@echo "... src/kernel/proc/alloc_proc.s"
+	@echo "... src/kernel/register/alloc_reg.o"
+	@echo "... src/kernel/register/alloc_reg.i"
+	@echo "... src/kernel/register/alloc_reg.s"
 .PHONY : help
 
 
