@@ -1,19 +1,20 @@
 #include <stdlib.h>
 #include <memory.h>
+
 #include "proc.h"
 
 #define NUMBEROFPROC 4   // 进程数
 #define ALLOCFAIL -1
 #define ALLOCSUCC 1
 
-class allocproc
+class AllocProc
 {
 public:
     proc* procPoll[NUMBEROFPROC];
 
 public:
-    allocproc();
-    ~allocproc();
+    AllocProc();
+    ~AllocProc();
 
     void alloc();
     void sleep();

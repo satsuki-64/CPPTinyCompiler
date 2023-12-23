@@ -69,38 +69,10 @@ include CMakeFiles/MainTest_cmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MainTest_cmake.dir/flags.make
 
-CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
-CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o: ../src/compiler/Scan.cpp
-CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -c /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp
-
-CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp > CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.i
-
-CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s
-
-CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
-CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: ../src/EntryPoint.cpp
-CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -c /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp
-
-CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp > CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.i
-
-CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.s
-
 CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
 CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o: ../src/kernel/proc/alloc_proc.cpp
 CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/proc/alloc_proc.cpp
 
 CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.i: cmake_force
@@ -114,7 +86,7 @@ CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.s: cmake_force
 CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
 CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o: ../src/kernel/register/alloc_reg.cpp
 CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/register/alloc_reg.cpp
 
 CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.i: cmake_force
@@ -128,7 +100,7 @@ CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.s: cmake_force
 CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
 CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o: ../src/kernel/instruction/instruction_eval.cpp
 CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/instruction/instruction_eval.cpp
 
 CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.i: cmake_force
@@ -139,22 +111,50 @@ CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jianwen/CPPTinyCompiler/src/kernel/instruction/instruction_eval.cpp -o CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.s
 
+CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
+CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o: ../src/compiler/Scan.cpp
+CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -c /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp
+
+CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp > CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.i
+
+CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.s
+
+CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: CMakeFiles/MainTest_cmake.dir/flags.make
+CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: ../src/EntryPoint.cpp
+CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o: CMakeFiles/MainTest_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -MF CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o.d -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -c /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp
+
+CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp > CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.i
+
+CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.s
+
 # Object files for target MainTest_cmake
 MainTest_cmake_OBJECTS = \
-"CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o" \
-"CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o" \
 "CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o" \
 "CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o" \
-"CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o"
+"CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o" \
+"CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o" \
+"CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o"
 
 # External object files for target MainTest_cmake
 MainTest_cmake_EXTERNAL_OBJECTS =
 
-../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o
-../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o
 ../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o
 ../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o
 ../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o
+../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o
+../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o
 ../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/build.make
 ../MainTest_cmake: CMakeFiles/MainTest_cmake.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jianwen/CPPTinyCompiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../MainTest_cmake"

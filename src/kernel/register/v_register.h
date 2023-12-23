@@ -1,13 +1,15 @@
+#pragma once
+
 // 寄存器组
 struct virtual_register
 {
-    unsigned int *pc;
-    unsigned int *bp;
-    unsigned int *sp;
+    int *bp;
+    int *sp;
+    int *pc;
 
-    int* ax;
-    int* bx;
-    int* cx;
+    int ax;
+    int bx;
+    int cx;
     
     int cycle;
 };

@@ -5,7 +5,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/MainTest_cmake", //表示当前项目的可执行文件的位置
+            "program": "${workspaceFolder}/MainTest_cmake", //表示当前项目的可执行文件的位置
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "Build"

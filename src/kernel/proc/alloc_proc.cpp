@@ -1,6 +1,6 @@
 #include "alloc_proc.h"
 
-allocproc::allocproc()
+AllocProc::AllocProc()
 {
     for(int i = 0;i<NUMBEROFPROC;i++)
     {
@@ -10,12 +10,12 @@ allocproc::allocproc()
     }
 }
 
-allocproc::~allocproc()
+AllocProc::~AllocProc()
 {
     
 }
 
-void allocproc::alloc()
+void AllocProc::alloc()
 {
     int i = 0;
     while(i<NUMBEROFPROC)
@@ -25,19 +25,19 @@ void allocproc::alloc()
     }
 }
 
-int allocproc::alloc(proc* p)
+int AllocProc::alloc(proc* p)
 {
-    //[(POOLSIZE*3)/sizeof(unsigned int)]
-    unsigned int* mem = (unsigned int*)malloc(POOLSIZE*3);
+    //[(POOLSIZE*3)/sizeof(int)]
+    int* mem = (int*)malloc(POOLSIZE*3);
 
     // 分配stack
-    p->stack = &mem[(POOLSIZE*0)/sizeof(unsigned int*)];
+    p->stack = &mem[(POOLSIZE*0)/sizeof(int*)];
 
     // 分配data
-    p->data = &mem[(POOLSIZE*1)/sizeof(unsigned int*)];
+    p->data = &mem[(POOLSIZE*1)/sizeof(int*)];
 
     // 分配text
-    p->text = &mem[(POOLSIZE*2)/sizeof(unsigned int*)];
+    p->text = &mem[(POOLSIZE*2)/sizeof(int*)];
 
     p->state = USED;
 

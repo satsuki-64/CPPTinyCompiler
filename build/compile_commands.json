@@ -1,27 +1,27 @@
 [
 {
   "directory": "/home/jianwen/CPPTinyCompiler/build",
-  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -c /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp",
-  "file": "/home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp"
-},
-{
-  "directory": "/home/jianwen/CPPTinyCompiler/build",
-  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -c /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp",
-  "file": "/home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp"
-},
-{
-  "directory": "/home/jianwen/CPPTinyCompiler/build",
-  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/proc/alloc_proc.cpp",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/kernel -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/kernel/proc/alloc_proc.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/proc/alloc_proc.cpp",
   "file": "/home/jianwen/CPPTinyCompiler/src/kernel/proc/alloc_proc.cpp"
 },
 {
   "directory": "/home/jianwen/CPPTinyCompiler/build",
-  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/register/alloc_reg.cpp",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/kernel -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/kernel/register/alloc_reg.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/register/alloc_reg.cpp",
   "file": "/home/jianwen/CPPTinyCompiler/src/kernel/register/alloc_reg.cpp"
 },
 {
   "directory": "/home/jianwen/CPPTinyCompiler/build",
-  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/instruction/instruction_eval.cpp",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/kernel -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/kernel/instruction/instruction_eval.cpp.o -c /home/jianwen/CPPTinyCompiler/src/kernel/instruction/instruction_eval.cpp",
   "file": "/home/jianwen/CPPTinyCompiler/src/kernel/instruction/instruction_eval.cpp"
+},
+{
+  "directory": "/home/jianwen/CPPTinyCompiler/build",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/kernel -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/compiler/Scan.cpp.o -c /home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp",
+  "file": "/home/jianwen/CPPTinyCompiler/src/compiler/Scan.cpp"
+},
+{
+  "directory": "/home/jianwen/CPPTinyCompiler/build",
+  "command": "/usr/bin/g++  -I/home/jianwen/CPPTinyCompiler/src/kernel/register -I/home/jianwen/CPPTinyCompiler/src/kernel/proc -I/home/jianwen/CPPTinyCompiler/src/kernel/instruction -I/home/jianwen/CPPTinyCompiler/src/kernel -I/home/jianwen/CPPTinyCompiler/src/compiler -I/home/jianwen/CPPTinyCompiler/src/include  -g -Wall -g -o CMakeFiles/MainTest_cmake.dir/src/EntryPoint.cpp.o -c /home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp",
+  "file": "/home/jianwen/CPPTinyCompiler/src/EntryPoint.cpp"
 }
 ]

@@ -5,14 +5,17 @@
 
 class AllocReg
 {
-    typedef virtual_register Reg;
-
 public:
+    typedef virtual_register Reg;   
+
     AllocReg();
     ~AllocReg();
 
     void RegInitWithProc(proc* proc);
 
+    // 还未实现
+    void RegInitWithProc(proc* procNew,proc* procOld);
+    
 public:
     Reg* vRegister;
 };
